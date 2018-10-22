@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dia #1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+       /*
+        var nombre = "Steben"
+        var apellido = ""
+        alert("Bienvenidos a Bictia"+" "+ nombre)
+        apellido = prompt("Ingrese su apellido", "Apellido")
+        alert(apellido)
+
+        console.log(nombre) */
+/*
+        var  x = 5
+        var  y = 2
+
+        var s = x+y
+        var r = x-y
+
+        console.log("La suma es de : "+s)
+        console.log(" La multiplicacion es de :" + r) 
+
+        var d = x/y
+        var multip = x*y
+
+        console.log("La division es de " + d)
+        console.log("La mutiplicacion es de "+ multip)
+
+        var mod = x%y
+        console.log("El residuo es:" +mod)
+
+        x++
+        console.log("Incremento es de: "+x)
+        x--
+        console.log("Incremento es de "+x)
+*/
+        //OPERADORES DE ASIGNACION
+        
+        /*
+        var x,y;
+         x = 15
+         y = 2
+         x+=y //x = x+y
+         alert("La suma es:" +x)
+         x-=y // x = x-y
+         alert("La resta es:" + x)*/
+
+         //OPERADORES RELACIONALES O COMPARATIVOS
+         /*
+         var x = 2
+         var y = 3
+
+         var mayor = x>y
+         var menor = x<y
+
+         var _igual = x == y
+         var diferente = x!=y
+
+         console.log("x mayor a y "+mayor)
+         console.log("x menor a y "+menor)
+         console.log("x igual a y "+_igual)
+         console.log("x es diferente de y "+ diferente)*/
+        
+        //OPERADORES LOGICOS
+        /*
+        var Varible1 = false
+        var $varibles2 = true;
+        var resultadoAND = Varible1&&$varibles2
+
+
+
+        alert("Resultado and/y: " + resultadoAND)
+
+        var resultadoOR = Varible1 || $varibles2
+
+        alert("Resuultado or: "+resultadoOR) 
+
+        var notresul = !Varible1;
+
+        alert(notresul)*/
+        
+        //IF
+        /*
+        var respuesta = prompt("Ingrese un digito mayor a 5")
+        if(respuesta > 5){
+            alert("Buen Trabajo")
+            if(respuesta == 6)
+            {
+                alert("El numero es igual a 6")
+
+            }
+            else{
+                alert("EL numero no es 6")
+            }
+
+        }
+        else
+            {
+                alert("No es un Mayor a 5")
+            }
+
+        */
+
+        //SWITCH
+        /*
+        var respuesta = prompt("Ingrese un nùmero")
+        switch (respuesta) {
+            case "1":
+                alert("Usted ingreso el numero uno")
+                break;
+            
+            case "2":
+                alert("Usted ingreso el numero dos")
+                break;
+        
+            default:
+                alert("Usted ingreso la opcion incorrecta")
+                break;
+        }
+        */
+
+        //BUCLE FOR
+        /*
+        for(i =0; i <= 10; i++)
+        {
+            console.log("i = "+ i)
+        }*/
+
+        //WHILE
+        /*
+
+        var i = 0
+        while (i <10) {
+            console.log("Numero : " +i)
+            i++;
+        }*/
+
+        //BUCLE do while
+        /*
+        var i = 0;
+
+        do{
+            i++;
+            console.log("Numoer: " + i);
+
+            
+        }while(i < 10);*/
+        
+        /*
+        //ARREGLOS
+        var dias = ["lunes","martes","miercoles","jueves","viernes","sabado","domingo"];
+            for ( index = 0; index< dias.length ;index++) {
+                console.log("Dias = "+dias[index]);
+                
+            }
+        
+            dias.forEach(element => {
+                console.log("ELEMENTO = "+element);
+                
+            });*/
+
+            //FUNCIONES PARA CADENAS 
+            /*
+            var cadena = prompt("Ingrese una palabra o frase")
+            
+            alert("Longitud de cadena: "+cadena.length)
+
+            alert("MAYUSCULAS " +cadena.toUpperCase())
+
+            alert("MINUSCULAS "+cadena.toLowerCase())
+
+            alert("Posicion: "+ cadena.charAt(1))
+
+
+
+            var caracter = prompt("Escriba un caracter a buscar")
+
+            alert("Posicion de la letra: "+cadena.indexOf(caracter))
+            alert("Posicion ultima letra: "+cadena.lastIndexOf(caracter))
+            //alert("Porcion"+ cadena.substr(1,(cadena.length-1)))
+            console.log(cadena.split(""))*/
+
+            //FUNCIONES PARA ARREGLOS
+            /*
+            var local=["MIllonarios","SantaFe","Tolima"]
+            var visitante = ["Nacional", "Pasto","Junio"]
+
+            var grupoA, grupoB,vuelta;
+
+            grupoA = local.concat(visitante);
+            console.log(grupoA);
+
+            grupoB = grupoA.join("-");
+            console.log(grupoB);
+
+            grupoA.pop(); //Elimina el ultimo elemento
+
+            grupoA.push("caldas") // Reemplaza el ultimo elemento
+            console.log(grupoA);
+
+            grupoA.shift();//Elimina en la primera posicion
+            console.log(grupoA)
+
+            grupoA.unshift("Equidad");//Reemplaza la primer posicion
+            console.log(grupoA);
+
+            vuelta = grupoA.reverse(); //Invierte las posiciciones del vector
+            console.log(vuelta)
+            */
+
+           //FUNCIONES
+
+           var a = 1, b = 4,c = 3, d = 5, e = 2, f = 10;
+
+           //var suma;
+            sumarNumeros(a,b)
+            sumarNumeros(c,d)
+            sumarNumeros(e,f)
+           function sumarNumeros(a,b)
+           {
+               var sumatotal = a + b
+               console.log(sumatotal)
+           }
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
