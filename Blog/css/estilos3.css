@@ -1,0 +1,101 @@
+/*Estilos Para el Body*/
+body{
+    background-color: #000000;
+    color: white;
+}
+/*FIN ESTILOS BODY*/
+
+/*funciones*/
+/*Evita que aumente tamño de contenedor por uso de padding*/
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+/*Para limpiar un float*/
+.clearfix:before,.clearfix:after{
+    content: '';
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+/*Fin funciones*/
+
+
+/*Estilos Nav*/
+div.navegacion{
+    display: flex;
+    justify-content: center;
+   
+    font-family: 'Nosifer', cursive;
+    background-color: #6DFF1C;
+    width: 80%;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+    
+}
+
+
+nav ul {
+list-style: none;
+}
+nav ul li {
+    float:left;
+    
+
+}
+nav ul li a{
+    display: inline-block;
+    width: 250px;
+    color:white;
+    text-decoration: none;
+    
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    
+   color:#FF4403;
+   cursor:pointer;
+   
+}
+
+
+/*Fin Estilos Nav*/
+
+
+/*Estilos Para contenedor de Productos*/
+h1{
+    text-align: center;
+    color: #FF4403;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.contenedor{
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.contenedor div{
+    width: 250px;
+    height: 250px;
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+  
+}
+
+.contenedor div img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #FF4403;
+}
+/*Fin Contenedor*/

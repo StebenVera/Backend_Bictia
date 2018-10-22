@@ -1,0 +1,148 @@
+/*Estilos Para el Body*/
+body{
+    background-color: #000000;
+    color: white;
+}
+/*FIN ESTILOS BODY*/
+
+/*funciones*/
+/*Evita que aumente tamño de contenedor por uso de padding*/
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+/*Para limpiar un float*/
+.clearfix:before,.clearfix:after{
+    content: '';
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+/*Fin funciones*/
+
+
+/*Estilos Nav*/
+div.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #6DFF1C;
+    width: 80%;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-family: 'Nosifer', cursive;
+    
+}
+
+
+nav ul {
+list-style: none;
+}
+nav ul li {
+    float:left;
+    
+
+}
+nav ul li a{
+    display: inline-block;
+    width: 250px;
+    color:white;
+    text-decoration: none;
+    /*margin-left: 48%;*/
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    
+   color:#FF4403;
+   cursor:pointer;
+   
+}
+
+
+/*Fin Estilos Nav*/
+
+/*Estilos Contenido Principal*/
+    div.contenido-principal{
+        width: 80%;
+        margin: 0 auto;
+    }
+    main{
+        float: left;
+        width: 70%;
+        padding-right: 20px;
+    }
+   
+    article img{
+        width: 30%;
+        float: left;
+        margin-right: 5px;
+    }
+    article p{
+        line-height: 2;
+        text-align: justify;
+        
+    }
+    article h2{
+        color: #FF4403;
+        font-family: 'Gloria Hallelujah', cursive;
+    }
+/*Fin estilos contenido Principal*/
+
+/*Estilos aside*/
+aside{
+    float: right;
+    width: 30%;
+    
+}
+aside h2 {
+    color: #FF4403;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+aside ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+    
+}
+aside ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+aside ul li :hover{
+    background-color: #3e432e; 
+    display: inline-block;
+    width: 100%;
+    cursor:pointer;
+   
+}
+
+aside iframe{
+    padding-left: 30px;
+}
+.centrartxt{
+    text-align: center;
+}
+
+aside img{
+    width: 250px;
+    height: 250px;
+}
+aside a > img{
+    
+}
+.publicidad{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*fin aside*/
+
