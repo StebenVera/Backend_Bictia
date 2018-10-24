@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Practicas Js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+<body>
+
+    <div>
+        <h1>Hola</h1>
+    </div>
+    <div id="prueba">
+        <p>Uno</p>
+        <p id="second">Dos</p>
+        <p>Tres</p>
+    </div>
+    <!--DOOM-->
+    <!--Nos Permite manipular objetos de HTML a través JS -->
+    <!--NODOS: Etiquetas -->
+    <script>
+        //var elementoP = document.getElementsByTagName("p");
+        var segundo = document.getElementById("second");
+        //1.Crear elemento
+        var elemento = document.createElement("h2");
+        //2.crear nodo de texto
+        var contenido = document.createTextNode("Soy nuevo")
+
+        //3.agregar el nodo al elemento
+        elemento.appendChild(contenido);
+        //4.Agregar el elemento al documento
+        document.getElementById("prueba").appendChild(elemento);
+
+        //Posicionar un nodo
+
+        var padre  = document.getElementsByTagName("p")[0].parentNode;
+        var hijo = document.getElementsByTagName("p")[1];
+
+        padre.insertBefore(elemento,hijo);
+
+
+        //Reemplazar contenido de un nodo
+        //elemento.innerHTML = "HOLA <i>PEPE</i>";
+        elemento.textContent = "hola pepe dos <i> </i>";
+
+        //Reemplazar un nodo
+        var cambio = document.getElementsByTagName("p")[2];
+        padre.replaceChild(elemento,cambio);
+        
+        //Eliminar un node 
+         padre.removeChild(elemento);
+    </script>
+</body>
+</html>
