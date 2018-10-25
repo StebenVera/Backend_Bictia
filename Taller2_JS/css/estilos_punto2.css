@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+#principal{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#principal div{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+}

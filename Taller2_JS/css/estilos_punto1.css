@@ -1,0 +1,28 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.contenido{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   padding-top: 50px;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #fd0054;
+    margin-right: 10px;
+}
+.btn:hover{
+    background-color: #a80038;
+}
+.menu{
+    padding-top: 10px;
+}
+
+video{
+    border: 2px solid #fd0054;
+}
