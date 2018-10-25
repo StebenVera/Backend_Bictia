@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Atributos Doom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        div{
+            width: 200px;
+            height:200px;
+            background: #dddddd;
+            display: inline-block;
+            margin-right: 10px;
+            border: 1px solid #aaaaaa;
+            
+        }
+        .azul{
+            background: #0000FF;
+            border: 1px solid #000;
+        }
+        .rojo{
+            background: #FF0000;
+            border: 1px solid #000;
+        }
+        .amarillo{
+            background: yellow;
+        }
+        .verde{
+            background: purple;
+        }
+        
+        h2{
+           
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <section id="contenedor">
+        <div class=""></div>
+        <div class=""></div>
+    </section>
+
+    <script>
+        //Creamor el elemento
+        var elemento = document.createElement("div");
+        //Buscamos el padre de los elementos por medio del ID en este caso
+        var padre = document.getElementById("contenedor");
+        //Creamos una variable referencia para poder insertar nuestro nuevo elemento
+        var ref = document.getElementsByTagName("div")[0];
+        //Agregamos el elemeno en la posicion que deseamo de acuerdo a nuesta variable ref
+        padre.insertBefore(elemento,ref);
+       // padre.body(elemento,ref);
+        //variable .setAtribute("atributo","valor")
+        elemento.setAttribute("class","azul");
+        elemento.setAttribute("id","SoyunId");
+        //Cambiamos el valor de una clase por medio del metodo className
+      //  elemento.className="rojo"; 
+      
+
+      //EJERCICIO
+      //Crear 4 divs por medio de JS:
+      //--> Div #1 debe tener fodo amarillo
+      //--> Div #2 debe teer fondo azul  y debe tener texto
+      //--> Div #3 Debe tener fondo rojo con sus estilos de preferencia
+      //--> Div #4 libre
+      var elemento_div1 = document.createElement("div");
+      var elemento_div2 = document.createElement("div");
+      var elemento_div3 = document.createElement("div");
+      var elemento_div4 = document.createElement("div");
+      var elemento_h = document.createElement("h2");
+      var contenido = document.createTextNode("Soy nuevo div");
+      
+      elemento_h.appendChild(contenido);
+      padre.appendChild(elemento_div1);
+      padre.appendChild(elemento_div2);
+      padre.appendChild(elemento_div3);
+      padre.appendChild(elemento_div4)
+  
+
+      elemento_div1.setAttribute("class","amarillo");
+      elemento_div1.setAttribute("id","d_1");
+      estilosD1 = document.getElementById("d_1");
+
+      estilosD1.style.border = "10px solid red";
+
+      elemento_div2.setAttribute("class","azul");
+      elemento_div2.setAttribute("id","d_2")
+      document.getElementById("d_2").appendChild(elemento_h);
+      var estilosD2 = document.getElementById("d_2")
+      estilosD2.style.height = "300px";
+      estilosD2.style.color = "violet";
+      //document.getElementsByTagName("div")[4].appendChild(elemento_h);
+     // elemento_h.innerHTML ="SOy el div 2";
+      
+      elemento_div3.setAttribute("class","rojo");
+      elemento_div3.setAttribute("id","d_3");
+      var estilosD3 = document.getElementById("d_3")
+      estilosD3.style.height = "500px";
+
+      elemento_div4.setAttribute("id","d_4")
+      elemento_div4.setAttribute("class","verde");
+      var estilosD4 = document.getElementById("d_4")
+      estilosD4.style.width = "50%";
+
+
+    </script>
+</body>
+</html>
