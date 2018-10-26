@@ -46,7 +46,7 @@ function quitar() {
 
 function eleccion() {
         var opc =parseInt(prompt("Ingrese el numero del Div que desea borrar"));
-        div_padre.removeChild(div_padre.childNodes[opc-1]);
+        div_padre.removeChild(div_padre.childNodes[opc]);
         console.log(contador);
         
         
