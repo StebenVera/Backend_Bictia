@@ -1,0 +1,27 @@
+Nombre del Proyecto : TuRemix
+Ultima Fecha de Modificacion: 29-10-18
+
+Descripcion: La idea del proyecto es realizar una pagina web que
+almacene videos de distintas canciones, ordenadas por genero, artistas, 
+las mas escuchadas, es decir com un spotify pero con videos.
+
+
+SlideSHow: Va contener noticias, acerca de los principales artistas,
+o noticias o hits de una determinada cancion, debe contener minimo 
+5 imagenes.
+
+
+Columna de top 10: Debe contener 10 imagenes de la caractula o  patanallazo del video
+oficial de cada una de las canciones, cada una de estas imagenes,
+es un link que nos lleva a otra pagina en donde se despliega el video
+de la cancion seleccionada.
+
+Columna de artistas: Min 10 artistas y tambien son un link, que nos lleva 
+a otra pagina en donde encontramos una lista con las 10 
+principales de este artista se mostraran en video.
+
+Columna de genero: Min 10 o 5 generos, y cada imagen del genero nos debe llevar
+a una pagina en donde se encontrara los 5 videos principales de estos generos.
+
+VIDEOS: todos los videos deben tener los botones o la opcion para subir,
+bajar volumen parar o reproducir un video.

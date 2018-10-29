@@ -1,0 +1,53 @@
+/*Estilos para Fondo de la pagina*/
+/*el body y el html tiene un colore difernte*/
+html{
+    background-color: #60D3E8;
+}
+body{
+    margin: 0 auto;
+    width: 1100px;
+    height: 3000px;
+    background-color: #69FFED;
+    border: 4px solid #B20042;
+}
+/*Fin de estilos Para colores de fondo de la pagina*/
+
+/*Estilos para las columnas que contienen los artistas Top  y generos*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: space-between; 
+    align-items: center;
+    width: 32%;
+    float: left;
+}
+/*Aqui cambiamos el tamaño para las imagens de las tres columnas que tenemos*/
+.container img{
+    width: 300px;
+    height:168px;
+    margin-top: 10px;
+}
+/*Fin tamaño imagenes*/
+
+/*Tamño imagenes para slider bar*/
+img.ocultar{
+    width: 100%;
+    height: 500px;
+}
+/*fin tamaño imagenes*/
+
+/*Estilo borde imagenes*/
+.container img:hover{
+    border: 2px solid #FF0562;
+}
+/*Fin estilo borde imagenes*/
+h1{
+    background-color: #B20042;
+    color: white;
+}
+/**/
+
+.ocultar{
+    display: none;
+}
