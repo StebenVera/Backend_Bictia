@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cookies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <script>
+        document.cookie = "usuario = pepe;";
+        document.cookie = "nombre = Hijo de Pepe"
+        
+        //Si la cookie no existe o expira, y la queremos modificar,
+        //se va crear una nueva cookie
+        // ES una informacion que se almacena temporalmente
+        //Leer cookie
+        var micookie = document.cookie;
+        alert(micookie);
+
+
+        //modificar cookie
+        document.cookie ="usuario = kamilo;";
+        alert(document.cookie);
+
+        //Borrar una cookie //fecha de expiracion at: coordenada universal de tiempo
+        document.cookie = "usuario"
+
+    </script>
+</body>
+</html>

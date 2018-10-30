@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Json</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+
+<script>
+    /*
+    var js = {
+        instituto: "BICTIA",
+        instructor: "kamilo",
+        alumnos: 23,
+        intro: function(){
+            console.log("Bienvenidos a " + this.instituto+"su profesor sera"+
+            this.instructor+ "y esta a carago de un salon de"+this.alumnos+"estudiantes");
+        },
+        empresas: "rappi"
+    };*/
+
+
+    //objetos dentro de otro objeto
+
+    var muchos_json_dentro = [{
+            nombre:"pepe",
+            edad:16},{nombre:"pepito",edad:19},{nombre:"panda",edad:27}]
+
+    console.log(muchos_json_dentro[1].nombre); 
+   // console.log(muchos_json_dentro[0].["pepe"]);
+
+/*
+    console.log(js["instituto"]);
+    console.log(js.instructor);
+    console.log(js.intro());
+    console.log("nos estamos preparando para la entrevisa con"+js.empresas);
+*/
+</script>
+</body>
+</html>
