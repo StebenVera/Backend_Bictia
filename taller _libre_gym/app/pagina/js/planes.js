@@ -5,8 +5,6 @@ var elementos = formulario.elements
 
 
 
-
-(function(){
    
     function cambio_color(params) {
       //  console.log("hola")
@@ -18,7 +16,7 @@ var elementos = formulario.elements
       
       
       
-    };
+    }
 
     function cambio_color2(params) {
         //  console.log("hola")
@@ -29,7 +27,7 @@ var elementos = formulario.elements
         
         
         
-      };
+      }
 
     //cumple una funcion cada vez que se cumple un tiempo
     setInterval(cambio_color,1000);
@@ -38,7 +36,7 @@ var elementos = formulario.elements
     //se repite cada 2000
 
     //setInterval(saludo,2000);
-}())
+
 
 
 
