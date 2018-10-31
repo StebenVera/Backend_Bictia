@@ -1,0 +1,23 @@
+Documentación guía
+La pagina debe mostrar un slider en el cual promueve el gimnasio, 
+debe tener un menú el cual
+muestra servicios, los planes y en los planes al hacerle click 
+debe mostrar un formulario el cual
+el cliente debe llenar.
+Segmento de servicios
+En este se debe mostrar las sedes máximo dos, información del 
+gimnasio como teléfonos,
+correo, etc, Materiales de trabajo y dos tutores que se 
+pueden encontrar en la cesión de clase
+Planes
+Los planes se manejarán de acuerdo a 3 segmentos el 
+primero se manejara por trimestre el
+cual contendrá estos servicios * membresía incluida 
+*tiempo sin límite *valoración medica *clases grupales
+
+El segundo plan se manejará por semestre el cual contendrá estos 
+servicios * membresía
+incluida *tiempo sin límite *valoración medica *App móvil ilimitada * clases grupales
+Por último el tercero contendrá cual contendrá estos servicios * membresía incluida *tiempo
+sin límite *valoración médica *App móvil ilimitada * acceso full sedes* clases individuales con
+un tutor
