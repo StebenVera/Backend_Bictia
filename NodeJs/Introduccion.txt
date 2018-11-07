@@ -1,0 +1,12 @@
+Flujo del de una tare --> single trehead
+
+no es bloqueate --> Puede realizar varias tareas al tiempo.
+
+
+NodeJs --> traba con mongo db
+
+NodeJs ---> ES Asicrono porque usa Callbacks --> pasar una funcion como 
+parametro de otra.
+
+NodeJs --> puede realizar varias tareas sin necesidad que  la primera se halla
+terminado
