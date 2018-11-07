@@ -1,0 +1,28 @@
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.padre div{
+    width: 250px;
+    height: 600px;
+    border: 2px solid red;
+}
+
+.formulario{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.btn{
+    padding: 20px 20px;
+}
+.inline{
+    display: inline;
+}
+.inline_block{
+    display: inline-block;
+    margin-right: 40px;
+}

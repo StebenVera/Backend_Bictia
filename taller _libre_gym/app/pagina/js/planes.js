@@ -5,7 +5,7 @@ var elementos = formulario.elements
 
 
 
-   
+(function(){
     function cambio_color(params) {
       //  console.log("hola")
       
@@ -107,3 +107,5 @@ function  validarCedula(e) {
         
         
         formulario.addEventListener("submit",validar)
+
+    }());
