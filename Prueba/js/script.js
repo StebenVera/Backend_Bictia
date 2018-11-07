@@ -107,8 +107,9 @@ function eliminar(txt_value) {
             while (i<=x.length) {
                 div_padre.removeChild(x[i]);
                 i++;
+                alert("Producto Eliminado con Exito");
               }
-              alert("Producto Eliminado con Exito");
+             // alert("Producto Eliminado con Exito");
           }
           else{
               alert("No hay ningún producto que eliminar de este tipo");
