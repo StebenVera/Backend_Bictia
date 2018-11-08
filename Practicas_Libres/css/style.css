@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+#padre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#padre div{
+    width: 20%;
+    height: auto;
+    border: 1px solid black;
+}
+
+#padre img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#padre div {
+    margin: 5px;
+    box-shadow: grey 5px 6px;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#tabla {   
+    text-align: center;
+
+}
+
+input[type="text"] {
+    display: inline-block;
+    font-size: 15px;
+    width: 90%;
+    margin-top: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+}
