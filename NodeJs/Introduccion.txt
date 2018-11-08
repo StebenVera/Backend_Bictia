@@ -2,7 +2,6 @@ Flujo del de una tare --> single trehead
 
 no es bloqueate --> Puede realizar varias tareas al tiempo.
 
-
 NodeJs --> traba con mongo db
 
 NodeJs ---> ES Asicrono porque usa Callbacks --> pasar una funcion como 
@@ -10,3 +9,15 @@ parametro de otra.
 
 NodeJs --> puede realizar varias tareas sin necesidad que  la primera se halla
 terminado
+
+
+Cliente ----->Peticiones(Request)----->Servidor
+Servidor -----> Procesa la peticion(Response) ---> respuesta ----> Cliente
+
+htttp://localhost:8080
+
+NOdeJS
+  ||
+Modulos --> File System
+  ||    --> HTTP
+Son pequeños paquetes que vienen con funcionalidades
