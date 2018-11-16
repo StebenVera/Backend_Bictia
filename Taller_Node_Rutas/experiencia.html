@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hoja de Vida</title>
+    <style>
+            *{
+                margin: 0 ;
+            }
+            h1{
+                text-align: center;
+                color: white;
+            }
+            header div{
+                background-color: #240CE8;
+            }
+            header img{
+                width: 200px;
+                border: 2px solid #0D32FF;
+                border-radius: 5px;
+                text-align: center;
+                margin: 10px auto;
+                display: block;
+                
+            }
+            .nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+            }
+            .nav nav ul li {
+                list-style: none;
+                float: left;
+                margin-top: 20px;
+            }
+            .nav nav ul li a{
+                text-decoration: none;
+                
+                display: inline-block;
+                width: 200px;
+                color: blue;
+            }
+    
+            .perfil{
+                
+                width: 50%;
+                border: 2px solid #9D0CE8;
+                border-radius: 5px;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+        </style>
+</head>
+<body>
+    <header>
+         <div>
+            <h1>Daiver Steben Aragon Vera</h1>
+        </div>
+        <img src="img/foto.jpg" alt="">
+    </header>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="/">Perfil</a></li>
+                <li><a href="/experiencia">Experiencia</a></li>
+                <li><a href="/referencias">Referencias</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <section>
+            <div class="perfil">
+                <h2>Experiencia Laboral</h2>
+            </div>
+            <h3>Meditronic Ingeniería</h3>
+            <p><span class="sub">Cargo:</span>Soporte en el área de producción, ensamble y matenimientos de equipos estéticos y de electrónica en general, ensamblados y desarrollados en la empresa.</p>
+            <p><span class="sub">Jefe Inmediato:</span>Ing.Jimy Aponte.</p>
+            <p><span class="sub">Telefono:</span>316-229-0684.</p>
+            <p><span class="sub">Periodo:</span>Abril  2015 – Diciembre 2016.</p>
+        </section>
+        <section>
+            <h3>Universidad Central</h3>
+            <p><span class="sub">Cargo:</span>Vigilancia Tecnológica</p>
+            <p><span class="sub">Jefe Inmediato:</span>Ing.Juan Sebastian Rubiano.</p>
+            <p><span class="sub">Telefono:</span>300-225-7141.</p>
+            <p><span class="sub">Periodo:</span>Enero 2016 – Julio 2016.</p>
+        </section>
+        <section>
+            <h3>Electronics Future D&G</h3>
+            <p><span class="sub">Cargo:</span>Diseño, configuración de software y hardware. </p>
+            <p><span class="sub">Jefe Inmediato:</span>Gustavo Olaya.</p>
+            <p><span class="sub">Telefono:</span>310-817-6943</p>
+            <p><span class="sub">Periodo:</span>Enero 2017 – Julio 2018.</p>
+        </section>
+    </main>
+</body>
+</html>
