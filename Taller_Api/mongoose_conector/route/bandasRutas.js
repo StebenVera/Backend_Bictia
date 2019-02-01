@@ -11,7 +11,7 @@ router.post('/bandas', function(req,res,next){
 
 // Consultar
 router.get('/bandas', function(req,res,next){
-    Banda.find({nota:{$gte:4}}).then(function(bandas){
+    Banda.find().then(function(bandas){
         res.send(bandas)
     }).catch(next)
 })
